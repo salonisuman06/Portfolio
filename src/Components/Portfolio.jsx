@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "..\images\pages-side.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with pages and tablet";
 
 /**
  * Project list
@@ -31,30 +31,31 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "URL shortener project ",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Integrated the whole system into a web-hosted application and implemented the QR based link scanners using Python (Django) and JavaScript. Implemented user registration, link shortening, analytics, customization, security, dashboards, redirection, API, error handling, scalability, compliance, support, improvement, and monetization, relying on best practices",
+    url: "https://drive.google.com/drive/folders/1ZcVUg3zvA0DcLH0xxcScLdSH4WzZVz3z?usp=drive_link",
   },
   {
-    title: "Web Development for Beginners",
+    title: "GUI authentication system",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Implemented the Recognition based Authentication, authenticateing users by having them select a pre-selected picture from a collection of photos during registration and login. Enhanced security over commonly used text-based passwords, mitigating risks of dictionary attacks and keystroke recording while ensuring a user-friendly, CAPTCHA-free authentication experience using HTML , CSS and JavaScript",
+    url: "https://github.com/salonisuman06/Graphical-User-Password-Authentication-System",
   },
   {
-    title: "My Resume Site",
+    title: "A fully convolutional neural network for speech enhancement with spectrogram",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Babble noise significantly hinders hearing aid performance in understanding speech. Our Redundant Convolutional Encoder Decoder (R-CED) model, using supervised learning, improves speech clarity, offering a compact solution for embedded devices, like hearing aids. Audio Signal Processing with Python Libraries leverages pydub, matplotlib, tensorflow, numpy, librosa, scipy, and IPython for tasks like denoising and reconstruction.",
+    url: "https://github.com/salonisuman06/A-Fully-Convolutional-Neural-Network-for-Complex-Spectrogram-Processing-in-Speech-Enhancement",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Chatbot For Mental Health",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Empowered the chatbot with advanced Python-based Natural Language Processing for comprehensive mental health support. Leverage data-driven recommendations powered by Python libraries like scikit-learn and Linear Support Vector Machine (Linear SVC) algorithm to enhance the chatbot's advice for an evolving, more effective mental health support system helping. ",
+    url: "https://github.com/salonisuman06/Chatbot-for-Mental-Health",
   },
 ];
+
 
 const Portfolio = () => {
   return (
